@@ -8,10 +8,10 @@ export const DataProvider = (props) => {
       _id: "1",
       title: "Wacth Product 01",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img1.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
+        "https://wallpapercave.com/wp/wp2168267.jpg",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -26,10 +26,10 @@ export const DataProvider = (props) => {
       _id: "2",
       title: "Wacth Product 02",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img1.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpapercave.com/wp/wp2168267.jpg",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -44,10 +44,10 @@ export const DataProvider = (props) => {
       _id: "3",
       title: "Wacth Product 03",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img1.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
+        "https://wallpapercave.com/wp/wp2168267.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -62,10 +62,10 @@ export const DataProvider = (props) => {
       _id: "4",
       title: "Wacth Product 04",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img1.jpg",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
+        "https://wallpapercave.com/wp/wp2168267.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -80,10 +80,10 @@ export const DataProvider = (props) => {
       _id: "5",
       title: "Wacth Product 05",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img5.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
+        "https://www.gizbot.com/images/2019-02/samsung-galaxy-watch-active_155108987680.jpg",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -98,10 +98,10 @@ export const DataProvider = (props) => {
       _id: "6",
       title: "Wacth Product 06",
       images: [
-        "https://www.upsieutoc.com/images/2020/07/18/img6.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img2.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img3.jpg",
-        "https://www.upsieutoc.com/images/2020/07/18/img4.jpg",
+        "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGNofGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "https://wallpapercave.com/wp/wp1853720.jpg",
+        "https://www.teahub.io/photos/full/192-1925709_wrist-watch-images-hd.jpg",
+        "https://wallpaperaccess.com/full/795912.jpg",
       ],
       description:
         "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",

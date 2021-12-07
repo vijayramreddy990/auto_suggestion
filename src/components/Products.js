@@ -9,7 +9,7 @@ const Products = () => {
       {products.map((product) => (
         <div className="card" key={product._id}>
           <Link to={`/products/${product._id}`}>
-            <img src={`https://wallpapercave.com/wp/wp2168267.jpg`} alt="" />
+            <img src={product.images[0]} alt="" />
           </Link>
           <div className="box">
             <h3 title={product.title}>
