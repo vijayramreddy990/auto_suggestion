@@ -1,56 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "./DataProvider";
+import { Link } from "react-router-dom";
 
 const Products = () => {
+  const [products, setProducts] = useContext(DataContext);
   return (
     <div className="products">
-      <div className="card">
-        <a href="/">
-          <img
-            src="https://image.shutterstock.com/image-photo/kristianstad-sweden-4th-may-2019-600w-1439281484.jpg"
-            alt=""
-          />
-        </a>
-        <div className="box">
-          <h3 title="Watch Product 01">
-            <a href="/">Watch Product 01</a>
-          </h3>
-          <p>Description</p>
-          <h4>$100</h4>
-          <button>Add To Cart</button>
+      {products.map((product) => (
+        <div className="card" key={product._id}>
+          <Link to={`/products/${product._id}`}>
+            <img src={product.images[1]} alt="" />
+          </Link>
+          <div className="box">
+            <h3 title={product.title}>
+              <Link to={`/products/${product._id}`}>{product.title}</Link>
+            </h3>
+            <p>{product.description}</p>
+            <h4>${product.price}</h4>
+            <button>Add To Cart</button>
+          </div>
         </div>
-      </div>
-      <div className="card">
-        <a href="/">
-          <img
-            src="https://image.shutterstock.com/image-photo/kristianstad-sweden-4th-may-2019-600w-1439281484.jpg"
-            alt=""
-          />
-        </a>
-        <div className="box">
-          <h3 title="Watch Product 01">
-            <a href="/">Watch Product 01</a>
-          </h3>
-          <p>Description</p>
-          <h4>$100</h4>
-          <button>Add To Cart</button>
-        </div>
-      </div>
-      <div className="card">
-        <a href="/">
-          <img
-            src="https://image.shutterstock.com/image-photo/kristianstad-sweden-4th-may-2019-600w-1439281484.jpg"
-            alt=""
-          />
-        </a>
-        <div className="box">
-          <h3 title="Watch Product 01">
-            <a href="/">Watch Product 01 Watch Product 01</a>
-          </h3>
-          <p>Description</p>
-          <h4>$100</h4>
-          <button>Add To Cart</button>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
