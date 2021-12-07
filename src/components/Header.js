@@ -1,30 +1,31 @@
 import React from "react";
 import Menu from "./svg/bars-solid.svg";
 import Close from "./svg/times-solid.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <div className="logo">
         <h1>
-          <a href="/">Citizen</a>
+          <Link to="/">Citizen</Link>
         </h1>
       </div>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">Products</a>
+          <Link to="/products">Products</Link>
         </li>
         <li>
-          <a href="/">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <a href="/">Login/Register</a>
+          <Link to="/login">Login/Register</Link>
         </li>
         <li>
           <img className="menu" src={Close} alt="" width="30" />
