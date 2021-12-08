@@ -3,7 +3,7 @@ import { DataContext } from "./DataProvider";
 import { Link } from "react-router-dom";
 
 const Products = () => {
-  const [products, setProducts] = useContext(DataContext);
+  const [products] = useContext(DataContext);
   return (
     <div className="products">
       {products.map((product) => (
