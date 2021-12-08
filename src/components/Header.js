@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "./svg/bars-solid.svg";
 import Close from "./svg/times-solid.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [menu, setMenu] = useState(false);
+  const toggleMenu = () => {
+    setMenu(!menu);
+  };
+
+  const styleMenu = {
+    left: menu ? 0 : "-100%",
+  };
+
   return (
     <header>
       <div className="logo">
@@ -11,7 +20,7 @@ const Header = () => {
           <Link to="/">Citizen</Link>
         </h1>
       </div>
-      <ul>
+      <ul style={styleMenu}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -28,10 +37,16 @@ const Header = () => {
           <Link to="/login">Login/Register</Link>
         </li>
         <li>
-          <img className="menu" src={Close} alt="" width="30" />
+          <img
+            className="menu"
+            onClick={toggleMenu}
+            src={Close}
+            alt=""
+            width="30"
+          />
         </li>
       </ul>
-      <div className="menu">
+      <div className="menu" onClick={toggleMenu}>
         <img src={Menu} alt="" width="30" />
       </div>
     </header>
